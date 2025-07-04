@@ -1,0 +1,16 @@
+---
+- name: Asegurar directorio de salida
+  file:
+    path: /tmp/salida
+    state: directory
+    mode: '0755'
+
+- name: Desplegar datos de alumno
+  template:
+    src: datos_alumno.txt.j2
+    dest: /tmp/salida/datos_alumno.txt
+
+- name: Desplegar datos de equipo
+  template:
+    src: datos_equipo.txt.j2
+    dest: /tmp/salida/datos_equipo.txt

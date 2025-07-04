@@ -1,7 +1,0 @@
-  241  docker build -t agustinzegarra/web1-zegarra .
-  245  docker push agustinzegarra/web1-zegarra
-  280  docker build -t web1-Zegarra .
-  282  docker build -t web1-Zegarra .
-  295  docker build -t web1-zegarra .
-  297  docker tag web1-zegarra agustinzegarra/web1-zegarra:latest
-  298  docker push agustinzegarra/web1-zegarra:latest
